@@ -1,0 +1,14 @@
+{% extends 'layouts/app.twig' %}
+
+{% block content %}
+    <div>
+        Cái gì đó ở đây
+    </div>
+    <div>
+        <ul>
+            {% for item in items %}
+                <li>{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}
